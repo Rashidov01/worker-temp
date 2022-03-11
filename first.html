@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.min.css">
+  <title>Worker</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header header-add">
+      <div class="header__inner">
+        <a class="header__logo" href="./index.html">
+          <h2>Worker</h2>
+        </a>
+        <nav class="header__nav nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <ul class="nav__list language">
+                <li class="language__item">
+                  <a class="language__link" href="#">O'Z</a>
+                </li>
+                <li class="language__item">
+                  <a class="language__link" href="#">RU</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link btn" href="#">+ e'lon berish</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link btn" href="#">+ ish xona e'lon berish</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <!-- <div class="site-main">
+        <div class="main-sidebar">
+          <h3 class="main-sidebar__title">Filter</h3>
+          <form action="" class="main-sidebar__form main-form" method="get">
+            <div class="main-form__holder">
+              <label class="main-form__label" for="search">Search</label>
+              <input class="main-form__input" type="text" id="search" placeholder="Search">
+            </div>
+            <div class="main-form__holder">
+              <input class="main-form__input" type="text" id="search" placeholder="Location">
+            </div>
+            <div class="main-form__holder">
+              <input class="main-form__input" type="text" id="search" placeholder="type">
+            </div>
+            <div class="main-form__holder">
+              <input class="main-form__input" type="text" id="search" placeholder="type">
+            </div>
+            <div class="main-form__holder salary-holder">
+              <div class="main-form__holder-info">
+                <span class="main-form__label">Salary</span>
+                <input class="main-form__input salary-input" type="number" id="from" placeholder="From">
+              </div>
+              <div class="main-form__holder-info">
+                <input class="main-form__input salary-input" type="number" id="from" placeholder="Up to">
+              </div>
+            </div>
+          </form>
+          <div class="main-form__button">
+            <button class="main-form__btn" type="submit">Submit</button>
+          </div>
+        </div>
+        <div class="main-wrapper">
+          <div class="main-wrapper__header">
+            <ul class="breadcrumb">
+              <li class="breadcrumb__item"><a class="breadcrumb__link" href="#">Home</a></li>
+              <li class="breadcrumb__item"><a class="breadcrumb__link breadcrumb__link--active" href="#">E'lonlar</a></li>
+            </ul>
+          </div>
+          <div class="main-wrapper__main">
+            <div class="card">
+              <ul class="card__list">
+                <li class="card__item item-card">
+                  <div class="card__entrance">
+                    <h3 class="card__title">ishi nomi boladi buyoda</h3>
+                    <span class="card__feature">Frontend</span>
+                  </div>
+                  <div class="card__info">
+                    <p class="card__info-price">from <span class="price">200$</span> up to <span class="price">500$</span>
+                    </p>
+                    <span class="card__info-detail">Toshkent, Yunusabad district - <span
+                        class="card__info-detail-time">Yesterday 18:00</span> Job permenent - Full time job</span>
+                  </div>
+                  <div class="card__btn">
+                    <button class="card__button" type="button"></button>
+                  </div>
+                </li>
+                <li class="card__item item-card">
+                  <div class="card__entrance">
+                    <h3 class="card__title">ishi nomi boladi buyoda</h3>
+                    <span class="card__feature">Frontend</span>
+                  </div>
+                  <div class="card__info">
+                    <p class="card__info-price">from <span class="price">200$</span> up to <span class="price">500$</span>
+                    </p>
+                    <span class="card__info-detail">Toshkent, Yunusabad district - <span
+                        class="card__info-detail-time">Yesterday 18:00</span> Job permenent - Full time job</span>
+                  </div>
+                  <div class="card__btn">
+                    <button class="card__button" type="button"></button>
+                  </div>
+                </li>
+                <li class="card__item item-card">
+                  <div class="card__entrance">
+                    <h3 class="card__title">ishi nomi boladi buyoda</h3>
+                    <span class="card__feature">Backend</span>
+                  </div>
+                  <div class="card__info">
+                    <p class="card__info-price">from <span class="price">200$</span> up to <span class="price">500$</span>
+                    </p>
+                    <span class="card__info-detail">Toshkent, Yunusabad district - <span
+                        class="card__info-detail-time">Yesterday 18:00</span> Job permenent - Full time job</span>
+                  </div>
+                  <div class="card__btn">
+                    <button class="card__button" type="button"></button>
+                  </div>
+                </li>
+                <li class="card__item item-card">
+                  <div class="card__entrance">
+                    <h3 class="card__title">ishi nomi boladi buyoda</h3>
+                    <span class="card__feature">Backend</span>
+                  </div>
+                  <div class="card__info">
+                    <p class="card__info-price">from <span class="price">200$</span> up to <span class="price">500$</span>
+                    </p>
+                    <span class="card__info-detail">Toshkent, Yunusabad district - <span
+                        class="card__info-detail-time">Yesterday 18:00</span> Job permenent - Full time job</span>
+                  </div>
+                  <div class="card__btn">
+                    <button class="card__button" type="button"></button>
+                  </div>
+                </li>
+                <li class="card__item item-card">
+                  <div class="card__entrance">
+                    <h3 class="card__title">ishi nomi boladi buyoda</h3>
+                    <span class="card__feature">Backend</span>
+                  </div>
+                  <div class="card__info">
+                    <p class="card__info-price">from <span class="price">200$</span> up to <span class="price">500$</span>
+                    </p>
+                    <span class="card__info-detail">Toshkent, Yunusabad district - <span
+                        class="card__info-detail-time">Yesterday 18:00</span> Job permenent - Full time job</span>
+                  </div>
+                  <div class="card__btn">
+                    <button class="card__button" type="button"></button>
+                  </div>
+                </li>
+                <li class="card__item item-card">
+                  <div class="card__entrance">
+                    <h3 class="card__title">ishi nomi boladi buyoda</h3>
+                    <span class="card__feature">Backend</span>
+                  </div>
+                  <div class="card__info">
+                    <p class="card__info-price">from <span class="price">200$</span> up to <span class="price">500$</span>
+                    </p>
+                    <span class="card__info-detail">Toshkent, Yunusabad district - <span
+                        class="card__info-detail-time">Yesterday 18:00</span> Job permenent - Full time job</span>
+                  </div>
+                  <div class="card__btn">
+                    <button class="card__button" type="button"></button>
+                  </div>
+                </li>
+                <li class="card__item item-card">
+                  <div class="card__entrance">
+                    <h3 class="card__title">ishi nomi boladi buyoda</h3>
+                    <span class="card__feature">Flutter</span>
+                  </div>
+                  <div class="card__info">
+                    <p class="card__info-price">from <span class="price">200$</span> up to <span class="price">500$</span>
+                    </p>
+                    <span class="card__info-detail">Toshkent, Yunusabad district - <span
+                        class="card__info-detail-time">Yesterday 18:00</span> Job permenent - Full time job</span>
+                  </div>
+                  <div class="card__btn">
+                    <button class="card__button" type="button"></button>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </main>
+    <footer class="footer">
+      <p class="copyright">abdulloh rashidov 2022</p>
+    </footer>
+  </div>
+</body>
+
+</html>

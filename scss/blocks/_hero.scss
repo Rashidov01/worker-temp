@@ -1,6 +1,5 @@
 .hero{
   padding: 50px 0;
-  margin-bottom: 30px;
   background-color: #F2F2F2;
 }
 
@@ -21,6 +20,11 @@
   color: #373F68;
   border: none;
   background-color: transparent;
+}
+
+.filter{
+  padding: 20px 30px;
+  border-left: 2px solid #f2f2f2;
 }
 
 .hero__btn{

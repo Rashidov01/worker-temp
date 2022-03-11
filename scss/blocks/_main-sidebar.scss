@@ -1,0 +1,69 @@
+.main-sidebar{
+  padding: 15px 20px;
+  width: 25%;
+  // height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #F2F4FF;
+}
+
+.main-sidebar__title{
+  margin-bottom: 45px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #3A4374;
+}
+
+.main-form__holder{
+  margin-bottom: 30px;
+}
+
+.main-form__input{
+  width: 100%;
+  padding: 15px 18px;
+  color: #373F68;
+  border: 1px solid #4661E6;
+  outline: none;
+  border-radius: 12px;
+
+  &::placeholder{
+    font-size: 14px;
+    color: #797575;
+  }
+}
+
+.salary-holder{
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.salary-input{
+  width: 100%;
+}
+
+.main-form__label{
+  font-size: 14px;
+  color: #4661E6;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.main-form__button{
+  margin-top: auto;
+  display: block;
+  width: 100%;
+}
+
+.main-form__btn{
+  display: block;
+  border-radius: 12px;
+  width: 100%;
+  border: none;
+  font-size: 14px;
+  padding: 15px 30px;
+  cursor: pointer;
+  background-color: #4661E6;
+  color: #F2F4FF;
+}

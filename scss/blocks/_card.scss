@@ -1,0 +1,81 @@
+.card {
+  width: 100%;
+}
+
+.card__list {
+  @include list-unstyled;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__item {
+  position: relative;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 12px 18px;
+  background-color: #fff;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.card__item.item-card {
+  background-color: #F7F8FD;
+}
+
+.card__title {
+  margin: 0;
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: 800;
+  color: #373F68;
+}
+
+.card__entrance {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.card__feature {
+  display: inline-block;
+  background-color: #d7dbf5;
+  border-radius: 10px;
+  padding: 5px 16px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 19px;
+  color: #4661E6;
+}
+
+.price {
+  font-weight: 800;
+}
+
+.card__info-price {
+  margin-bottom: 5px;
+}
+
+.card__info-price,
+.card__info-detail {
+  color: #373F68;
+  font-size: 14px;
+}
+
+.card__button {
+  background-image: url(../../icon/favorite.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.card__btn {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}

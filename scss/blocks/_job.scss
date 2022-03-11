@@ -1,0 +1,43 @@
+.job{
+  width: 100%;
+  padding: 35px 0 60px;
+  background-color: #F2F2F2;
+}
+
+.job__title{
+  margin-bottom: 30px;
+  font-size: 35px;
+  color: #373F68;
+  text-align: center;
+  padding: 30px 0 0;
+}
+
+.filter-job{
+  @include list-unstyled;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #647196;
+}
+
+.filter-job__item{
+  margin: 0;
+  margin-right: 35px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid transparent;
+}
+
+.filter-job__item.filter-job__item--active{
+  border-bottom: 1px solid #4661E6;
+}
+
+.filter-job__item--active .filter-job__link{
+  color: #4661E6;
+}
+
+.filter-job__link{
+  color: #373F68;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+}

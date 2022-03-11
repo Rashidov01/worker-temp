@@ -1,0 +1,29 @@
+.breadcrumb{
+  @include list-unstyled;
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb__item{
+  display: flex;
+  align-items: center;
+  // margin-right: 15px;
+
+  &:not(:last-child)::after{
+    margin: 0 10px;
+    width: 1px;
+    height: 10px;
+    background-color: #647196;
+    content: '';
+  }
+}
+
+.breadcrumb__link{
+  font-size: 14px;
+  color: #3A4374;
+  text-decoration: none;
+}
+
+.breadcrumb__link--active{
+  color: #4661E6;
+}

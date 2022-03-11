@@ -1,0 +1,30 @@
+.main{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  height: 100%;
+}
+
+.site-main{
+  display: flex;
+}
+
+.wrapper{
+  width: 100%;
+}
+
+.main-wrapper{
+  border-left: 1px solid #647196;
+  width: 75%;
+}
+
+.main-wrapper__header{
+  border-bottom: 1px solid #647196;
+  padding: 15px 30px;
+  width: 100%;
+  background-color: #F2F4FF;
+}
+
+.main-wrapper__main{
+  padding: 35px 25px;
+}
